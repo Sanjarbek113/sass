@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header, .header-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.header-item{
+    padding: 20px;
+}
+.header-title{
+    font-size: 25px;
+}
+.header-link{
+    font-size: 17px;
+    color: grey;
+}
+.main{
+    background-image: url(./images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+.box-title{
+    font-size: 45px;
+    width: 60%;
+}
+.box-text{
+    font-size: 25px;
+    width: 60%;
+   color: darkslategrey;
+}
+.list-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-item{
+    padding: 12px;
+}
+.box-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+}
+
+.btn-box{
+    background-color: white;
+    border: 2px solid darkturquoise;
+    color: darkturquoise;
+}
+.segment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.segment-list{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin: 40px;
+    width: 400px;
+    transition: 0.7s;
+    animation-name: SegmentAnimation;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-play-state: running;
+}
+.segment-item{
+    padding: 5px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.segment-img{
+    padding-top: 30px;
+}
+.segment-text{
+    width: 80%;
+    padding-bottom: 20px;
+}
+.list-segment{
+    background-color: lightsteelblue;
+    width: 400px;
+}
+@keyframes SegmentAnimation{
+    to{
+        transform: scale(1.2,1.2);
+    }
+}
