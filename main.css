@@ -170,15 +170,56 @@
 
 @-webkit-keyframes SegmentAnimation {
   to {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2) rotate(180degree);
+            transform: scale(1.2, 1.2) rotate(180degree);
   }
 }
 
 @keyframes SegmentAnimation {
   to {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2) rotate(180degree);
+            transform: scale(1.2, 1.2) rotate(180degree);
   }
+}
+
+.header-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.box-title:hover {
+  color: darkcyan;
+}
+
+.box-text:hover {
+  color: darkmagenta;
+}
+
+.box-btn:hover {
+  background-color: darkorchid;
+  border-radius: 3px solid darkorchid;
+  color: whitesmoke;
+}
+
+.btn-box:hover {
+  background-color: black;
+}
+
+.segment-list:hover {
+  background-color: lightcyan;
+}
+
+.segment-title:hover {
+  -webkit-text-decoration: underline solid darkblue;
+          text-decoration: underline solid darkblue;
+  color: darkcyan;
+}
+
+.segment-text:hover {
+  color: darkred;
+}
+
+.list-segment:hover {
+  background-color: wheat;
 }
 /*# sourceMappingURL=main.css.map */
