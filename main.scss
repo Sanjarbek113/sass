@@ -110,8 +110,8 @@
 }
 @keyframes SegmentAnimation{
     to{
-        transform: scale(1.2,1.2);
+        transform: scale(1.2,1.2) rotate(180degree);
     }
 }
 
-<link rel="stylesheet" href="./style.css">
+
