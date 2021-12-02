@@ -138,8 +138,8 @@
           animation-name: SegmentAnimation;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
   -webkit-animation-iteration-count: 1;
           animation-iteration-count: 1;
   -webkit-animation-timing-function: ease;
@@ -166,20 +166,6 @@
 .list-segment {
   background-color: lightsteelblue;
   width: 400px;
-}
-
-@-webkit-keyframes SegmentAnimation {
-  to {
-    -webkit-transform: scale(1.2, 1.2) rotate(180degree);
-            transform: scale(1.2, 1.2) rotate(180degree);
-  }
-}
-
-@keyframes SegmentAnimation {
-  to {
-    -webkit-transform: scale(1.2, 1.2) rotate(180degree);
-            transform: scale(1.2, 1.2) rotate(180degree);
-  }
 }
 
 .header-link:hover {
@@ -221,5 +207,374 @@
 
 .list-segment:hover {
   background-color: wheat;
+}
+
+@-webkit-keyframes SegmentAnimation {
+  to {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+}
+
+@keyframes SegmentAnimation {
+  to {
+    -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+  }
+}
+
+.char-flex {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.char-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.char-right {
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.char-left {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.char-title {
+  font-size: 35px;
+  color: #252B42;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+.char-text {
+  font-size: 25px;
+  width: 80%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 200px;
+  color: darkslategrey;
+  word-spacing: 2px;
+}
+
+.char-list {
+  margin: 50px;
+  padding: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Charlist;
+          animation-name: Charlist;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.char-img {
+  padding: 10px;
+}
+
+.char-number {
+  font-size: 25px;
+  color: #252B42;
+  padding-bottom: 5px;
+}
+
+.char-subtitle {
+  font-size: 15px;
+  color: darkslategrey;
+}
+
+.char {
+  background-color: whitesmoke;
+}
+
+.char-list:hover {
+  border: 2px solid darkred;
+}
+
+@-webkit-keyframes Charlist {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes Charlist {
+  from {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.title {
+  font-size: 25px;
+  color: black;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.list {
+  background-color: whitesmoke;
+}
+
+.item {
+  padding: 10px;
+}
+
+.div {
+  background-color: white;
+}
+
+.mainn {
+  background-color: lightgray;
+}
+
+.mainn-flex {
+  margin-top: 40px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainn-top {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-title {
+  font-size: 45px;
+  color: darkslategrey;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-left: 200px;
+}
+
+.top-text {
+  font-size: 20px;
+  width: 80%;
+  padding-left: 200px;
+  color: grey;
+}
+
+.main-center {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.left-img {
+  width: 600px;
+  height: 400px;
+}
+
+.main-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-list {
+  padding-left: 200px;
+}
+
+.right-title {
+  font-size: 45px;
+  width: 100%;
+  color: darkslategrey;
+  padding-bottom: 10px;
+}
+
+.right-text {
+  font-size: 20px;
+  color: grey;
+  width: 110%;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+
+.right-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-animation-name: Charlist;
+          animation-name: Charlist;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.right-box-img {
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.right-box-text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: darkslategray;
+  font-size: 20px;
+}
+
+.right-box-subtext {
+  font-size: 15px;
+}
+
+.main-leg-list {
+  padding-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-leg-item {
+  padding: 30px;
+}
+
+.main-footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: darkcyan;
+}
+
+.main-footer-item {
+  padding: 10px;
+  padding-left: 90px;
+  padding-right: 150px;
+}
+
+.main-footer-title {
+  font-size: 25px;
+  width: 70%;
+}
+
+.main-footer-email {
+  width: 200px;
+  height: 30px;
+  border-radius: 2px solid white;
+  border-radius: 5px;
+  border: none;
+}
+
+.main-footer-btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: orange;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
