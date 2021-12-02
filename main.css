@@ -213,15 +213,15 @@
 
 @-webkit-keyframes SegmentAnimation {
   to {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2) rotate(1440deg);
+            transform: scale(1.2, 1.2) rotate(1440deg);
   }
 }
 
 @keyframes SegmentAnimation {
   to {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2) rotate(1440deg);
+            transform: scale(1.2, 1.2) rotate(1440deg);
   }
 }
 
