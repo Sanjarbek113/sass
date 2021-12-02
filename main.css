@@ -146,6 +146,8 @@
           animation-timing-function: ease;
   -webkit-animation-play-state: running;
           animation-play-state: running;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .segment-item {
