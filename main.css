@@ -148,6 +148,8 @@
           animation-play-state: running;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
+  -webkit-animation-iteration-count: 10;
+          animation-iteration-count: 10;
 }
 
 .segment-item {
