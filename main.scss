@@ -187,12 +187,11 @@
     width: 80%;
     text-align: center;
     align-items: center;
-    padding-left: 200px;
     color: darkslategrey;
     word-spacing: 2px;
 }
 .char-list{
-    margin: 50px;
+    margin: 20px;
     padding: 10px;
     transition: 0.7s;
     animation-name: Charlist;
@@ -440,6 +439,7 @@
     border: 1px solid white;
     background-color: black;
 }
+
 .table-main-button:hover{
     background-color: darkred;
     color: white;
@@ -451,4 +451,134 @@
 .table-text:hover{
     color: black;
 }
+
+.footer{
+    background-color: lightyellow;
+    padding-top: 60px;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid lightgray;
+    width: 70%;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.footer-item{
+    padding: 5px;
+}
+.footer-link{
+    color: darkred;
+}
+
+@media(max-width:1160px){
+    .container{
+        width: 1000px;
+    }
+    .list-1{
+        display: none;
+    }
+    .left-img{
+        width: 500px;
+    }
+    
+}
+
+@media(max-width:1020px){
+    .container{
+        width: 900px;
+    }
+    .char-text{
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        padding-left: 100px;
+    }
+    .chart-flex{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .left-img{
+        width: 350px;
+    }
+}
+
+@media(max-width:920px){
+    .container{
+        width: 800px;
+    }
+    .main{
+        background-image: url(./images/cover.png);
+        background-repeat: no-repeat;
+        background-size: 11 0%;
+
+    }
+    .right-title{
+        font-size: 35px;
+    }
+    .main-leg-list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .main-footer-title{
+        font-size: 20px;width: 130%;
+    }
+    .char-subtitle{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .char-image{
+        width: 200px;
+    }
+}
+
+
+@media(max-width:820px){
+    .container{
+        width: 700px;
+    }
+}
+
+@media(max-width:720px){
+    .container{
+        width: 600px;
+    }
+}
+
+@media(max-width:620px){
+    .container{
+        width: 500px;
+    }
+}
+
+@media(max-width:520px){
+    .container{
+        width: 400px;
+    }
+}
+
+@media(max-width:420px){
+    .container{
+        width: 300px;
+    }
+    
+}
+
 
